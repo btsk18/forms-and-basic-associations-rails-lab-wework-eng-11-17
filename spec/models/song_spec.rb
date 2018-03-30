@@ -33,13 +33,13 @@ RSpec.describe Song, type: :model do
     end
   end
 
-  describe 'note_contents' do
-    it 'returns the content of all notes as an array' do
-      song = Song.new
-      song.note_contents = ['hi', 'there']
-      expect(song.note_contents).to eq ['hi', 'there']
-    end
-  end
+  # describe 'note_contents' do
+  #   it 'returns the content of all notes as an array' do
+  #     song = Song.new
+  #     song.note_contents = ['hi', 'there']
+  #     expect(song.note_contents).to eq ['hi', 'there']
+  #   end
+  # end
 
   describe 'note_contents=' do
     it 'sets notes for a song' do
